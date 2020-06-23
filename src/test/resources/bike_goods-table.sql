@@ -1,0 +1,1 @@
+CREATE TABLE public.bike_goods(id integer NOT NULL, name character(50) NOT NULL, price numeric NOT NULL, goods_type character(50) NOT NULL, lock integer NOT NULL DEFAULT 0, CONSTRAINT bike_goods_pkey PRIMARY KEY (id))

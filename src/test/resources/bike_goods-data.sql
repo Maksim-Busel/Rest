@@ -1,0 +1,1 @@
+INSERT INTO bike_goods (id, name, price, goods_type) values (1, 'Aist', 450, 'BIKE'),(2, 'Giant', 850, 'BIKE'),(3, 'chain', 45, 'spares'),(4, 'helm', 70, 'clothes'),(5, 'gloves', 30, 'clothes');
