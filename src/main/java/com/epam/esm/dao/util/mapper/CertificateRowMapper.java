@@ -1,4 +1,4 @@
-package com.epam.esm.mapper;
+package com.epam.esm.dao.util.mapper;
 
 import com.epam.esm.entity.Certificate;
 import com.epam.esm.entity.CertificateDuration;

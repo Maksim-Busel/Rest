@@ -1,6 +1,6 @@
 package com.epam.esm.builder.impl;
 
-import com.epam.esm.builder.api.CertificateQueryBuilder;
+import com.epam.esm.builder.CertificateQueryBuilder;
 import org.springframework.stereotype.Component;
 
 import static org.apache.commons.lang3.StringUtils.isNotBlank;

@@ -4,7 +4,7 @@ import com.epam.esm.entity.Certificate;
 import com.epam.esm.entity.CertificateDuration;
 import com.epam.esm.exception.CertificateParametersException;
 import com.epam.esm.exception.PriceException;
-import com.epam.esm.validator.api.CertificateValidator;
+import com.epam.esm.validator.CertificateValidator;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;

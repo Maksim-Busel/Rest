@@ -1,13 +1,11 @@
 package com.epam.esm.service.impl;
 
-import com.epam.esm.dao.api.CertificateDao;
-import com.epam.esm.entity.BikeGoods;
+import com.epam.esm.dao.CertificateDao;
 import com.epam.esm.entity.Certificate;
 import com.epam.esm.exception.IncorrectDataException;
 import com.epam.esm.exception.ThereIsNoSuchCertificateException;
-import com.epam.esm.service.api.BikeGoodsService;
-import com.epam.esm.service.api.CertificateService;
-import com.epam.esm.validator.api.CertificateValidator;
+import com.epam.esm.service.CertificateService;
+import com.epam.esm.validator.CertificateValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
@@ -15,7 +13,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDate;
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class CertificateServiceImpl implements CertificateService {

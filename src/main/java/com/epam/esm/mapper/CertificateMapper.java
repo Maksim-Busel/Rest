@@ -1,4 +1,4 @@
-package com.epam.esm.mapper.api;
+package com.epam.esm.mapper;
 
 import com.epam.esm.dto.CertificateDto;
 import com.epam.esm.entity.Certificate;

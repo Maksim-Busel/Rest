@@ -1,12 +1,12 @@
 package com.epam.esm.service;
 
-import com.epam.esm.dao.api.CertificateDao;
+import com.epam.esm.dao.CertificateDao;
 import com.epam.esm.entity.Certificate;
 import com.epam.esm.exception.PriceException;
 import com.epam.esm.exception.IncorrectDataException;
 import com.epam.esm.exception.ThereIsNoSuchCertificateException;
 import com.epam.esm.service.impl.CertificateServiceImpl;
-import com.epam.esm.validator.api.CertificateValidator;
+import com.epam.esm.validator.CertificateValidator;
 
 import org.junit.Assert;
 import org.junit.Test;

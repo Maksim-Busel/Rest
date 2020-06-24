@@ -1,10 +1,10 @@
-package com.epam.esm.exception;
+package com.epam.esm.dto;
 
-public class ApiError {
+public class ErrorResponse {
     private String message;
     private String error;
 
-    public ApiError(String message, String error) {
+    public ErrorResponse(String message, String error) {
         this.message = message;
         this.error = error;
     }

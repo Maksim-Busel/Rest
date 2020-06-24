@@ -1,7 +1,6 @@
 package com.epam.esm.dao;
 
 import com.epam.esm.config.SpringConfiguration;
-import com.epam.esm.dao.api.CertificateDao;
 import com.epam.esm.entity.Certificate;
 import com.epam.esm.entity.CertificateDuration;
 import org.junit.Test;

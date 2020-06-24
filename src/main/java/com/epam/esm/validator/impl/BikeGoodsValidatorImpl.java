@@ -3,9 +3,8 @@ package com.epam.esm.validator.impl;
 import com.epam.esm.entity.BikeGoods;
 import com.epam.esm.entity.BikeGoodsType;
 import com.epam.esm.exception.BikeGoodsParametersException;
-import com.epam.esm.exception.CertificateParametersException;
 import com.epam.esm.exception.PriceException;
-import com.epam.esm.validator.api.BikeGoodsValidator;
+import com.epam.esm.validator.BikeGoodsValidator;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;

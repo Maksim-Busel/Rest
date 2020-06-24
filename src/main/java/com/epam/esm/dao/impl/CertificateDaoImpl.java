@@ -1,7 +1,7 @@
 package com.epam.esm.dao.impl;
 
-import com.epam.esm.builder.api.CertificateQueryBuilder;
-import com.epam.esm.dao.api.CertificateDao;
+import com.epam.esm.builder.CertificateQueryBuilder;
+import com.epam.esm.dao.CertificateDao;
 import com.epam.esm.entity.Certificate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -19,7 +19,7 @@ public class CertificateDaoImpl implements CertificateDao {
     private final CertificateQueryBuilder builder;
 
     private static final String ADD = "INSERT INTO certificate " +
-            "(id, name, description, price, date_creation, duration) VALUES(nextval('certificateId'),?,?,?,?,?)";
+            "(name, description, price, date_creation, duration) VALUES(?,?,?,?,?)";
     private static final String FIND_BY_ID = "SELECT * FROM certificate WHERE id=? AND lock=0";
     private static final String FIND_ALL = "SELECT * FROM certificate WHERE lock=0";
     private static final String LOCK_BY_ID = "UPDATE certificate SET lock=1 WHERE id=?";

@@ -1,9 +1,9 @@
 package com.epam.esm.controller;
 
-import com.epam.esm.mapper.api.BikeGoodsMapper;
+import com.epam.esm.mapper.BikeGoodsMapper;
 import com.epam.esm.dto.BikeGoodsDto;
 import com.epam.esm.entity.BikeGoods;
-import com.epam.esm.service.api.BikeGoodsService;
+import com.epam.esm.service.BikeGoodsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

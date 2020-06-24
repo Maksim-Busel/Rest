@@ -1,7 +1,6 @@
 package com.epam.esm.dao;
 
 import com.epam.esm.config.SpringConfiguration;
-import com.epam.esm.dao.api.BikeGoodsDao;
 import com.epam.esm.entity.BikeGoods;
 import com.epam.esm.entity.BikeGoodsType;
 import org.junit.Test;

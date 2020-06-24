@@ -1,4 +1,4 @@
-package com.epam.esm.builder.api;
+package com.epam.esm.builder;
 
 public interface CertificateQueryBuilder {
 

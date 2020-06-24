@@ -1,6 +1,6 @@
 package com.epam.esm.handler;
 
-import com.epam.esm.exception.ApiError;
+import com.epam.esm.dto.ErrorResponse;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,7 +14,7 @@ public class RestExceptionHandler extends ResponseEntityExceptionHandler {
 
     @ExceptionHandler({Exception.class})
     public ResponseEntity<Object> handleAll(Exception exception, WebRequest request){
-        ApiError error = new ApiError(exception.getLocalizedMessage(), exception.getClass().toString());
+        ErrorResponse error = new ErrorResponse(exception.getLocalizedMessage(), exception.getClass().toString());
         return new ResponseEntity<>(error, new HttpHeaders(), HttpStatus.INTERNAL_SERVER_ERROR);
     }
 }

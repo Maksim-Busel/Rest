@@ -1,4 +1,4 @@
-package com.epam.esm.service.api;
+package com.epam.esm.service;
 
 import com.epam.esm.entity.BikeGoods;
 import com.epam.esm.entity.Certificate;

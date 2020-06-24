@@ -1,9 +1,9 @@
 package com.epam.esm.controller;
 
-import com.epam.esm.mapper.api.CertificateMapper;
+import com.epam.esm.mapper.CertificateMapper;
 import com.epam.esm.dto.CertificateDto;
 import com.epam.esm.entity.Certificate;
-import com.epam.esm.service.api.CertificateService;
+import com.epam.esm.service.CertificateService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

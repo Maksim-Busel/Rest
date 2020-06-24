@@ -1,4 +1,4 @@
-package com.epam.esm.mapper;
+package com.epam.esm.dao.util.mapper;
 
 import com.epam.esm.entity.BikeGoods;
 import com.epam.esm.entity.BikeGoodsType;
@@ -17,16 +17,16 @@ public class BikeGoodsRowMapper implements RowMapper<BikeGoods> {
 
     @Override
     public BikeGoods mapRow(ResultSet resultSet, int i) throws SQLException {
-        BikeGoods shop = new BikeGoods();
+        BikeGoods goods = new BikeGoods();
 
-        shop.setId(resultSet.getInt(ID));
-        shop.setName(resultSet.getString(NAME).trim());
-        shop.setPrice(resultSet.getBigDecimal(PRICE));
+        goods.setId(resultSet.getInt(ID));
+        goods.setName(resultSet.getString(NAME).trim());
+        goods.setPrice(resultSet.getBigDecimal(PRICE));
 
         String goodsType = resultSet.getString(GOODS_TYPE);
         String type = goodsType.trim().toUpperCase();
-        shop.setGoodsType(BikeGoodsType.valueOf(type));
+        goods.setGoodsType(BikeGoodsType.valueOf(type));
 
-        return shop;
+        return goods;
     }
 }

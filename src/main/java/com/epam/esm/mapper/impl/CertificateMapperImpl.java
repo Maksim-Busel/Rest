@@ -2,7 +2,7 @@ package com.epam.esm.mapper.impl;
 
 import com.epam.esm.dto.CertificateDto;
 import com.epam.esm.entity.Certificate;
-import com.epam.esm.mapper.api.CertificateMapper;
+import com.epam.esm.mapper.CertificateMapper;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

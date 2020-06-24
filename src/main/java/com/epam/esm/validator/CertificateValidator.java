@@ -1,4 +1,4 @@
-package com.epam.esm.validator.api;
+package com.epam.esm.validator;
 
 import com.epam.esm.entity.Certificate;
 

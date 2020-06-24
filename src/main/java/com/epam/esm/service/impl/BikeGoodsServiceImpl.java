@@ -1,17 +1,15 @@
 package com.epam.esm.service.impl;
 
-import com.epam.esm.dao.api.BikeGoodsDao;
+import com.epam.esm.dao.BikeGoodsDao;
 import com.epam.esm.entity.BikeGoods;
 import com.epam.esm.exception.ThereIsNoSuchBikeGoodsException;
-import com.epam.esm.exception.ThereIsNoSuchCertificateException;
-import com.epam.esm.service.api.BikeGoodsService;
-import com.epam.esm.validator.api.BikeGoodsValidator;
+import com.epam.esm.service.BikeGoodsService;
+import com.epam.esm.validator.BikeGoodsValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class BikeGoodsServiceImpl implements BikeGoodsService {

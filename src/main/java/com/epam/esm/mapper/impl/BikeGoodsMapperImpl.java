@@ -2,7 +2,7 @@ package com.epam.esm.mapper.impl;
 
 import com.epam.esm.dto.BikeGoodsDto;
 import com.epam.esm.entity.BikeGoods;
-import com.epam.esm.mapper.api.BikeGoodsMapper;
+import com.epam.esm.mapper.BikeGoodsMapper;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

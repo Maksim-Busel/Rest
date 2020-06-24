@@ -2,10 +2,8 @@ package com.epam.esm.validator;
 
 import com.epam.esm.entity.Certificate;
 import com.epam.esm.entity.CertificateDuration;
-import com.epam.esm.exception.BikeGoodsParametersException;
 import com.epam.esm.exception.CertificateParametersException;
 import com.epam.esm.exception.PriceException;
-import com.epam.esm.validator.api.CertificateValidator;
 import com.epam.esm.validator.impl.CertificateValidatorImpl;
 import org.junit.Before;
 import org.junit.Test;

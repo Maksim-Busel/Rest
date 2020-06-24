@@ -1,11 +1,11 @@
 package com.epam.esm.service;
 
-import com.epam.esm.dao.api.BikeGoodsDao;
+import com.epam.esm.dao.BikeGoodsDao;
 import com.epam.esm.entity.BikeGoods;
 import com.epam.esm.exception.PriceException;
 import com.epam.esm.exception.ThereIsNoSuchBikeGoodsException;
 import com.epam.esm.service.impl.BikeGoodsServiceImpl;
-import com.epam.esm.validator.api.BikeGoodsValidator;
+import com.epam.esm.validator.BikeGoodsValidator;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
